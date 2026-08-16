@@ -1,0 +1,12 @@
+{
+  "matterId": "matter_demo_contract",
+  "sourceId": "source_contract_v3",
+  "passageId": "passage_8_2",
+  "locator": "§8.2",
+  "verificationStatus": "verified",
+  "relationship": "supports",
+  "returnAvailability": "available",
+  "returnType": "document_preview",
+  "safePreviewReference": "/api/matters/matter_demo_contract/evidence/source_contract_v3/passages/passage_8_2/preview",
+  "limitations": []
+}
