@@ -1,0 +1,46 @@
+{
+  "version": "1",
+  "reply": "现有材料显示该责任限制条款可能与赔偿义务存在范围冲突。建议先确认附件DPA是否被责任上限明确覆盖。",
+  "sessionId": "session_demo_001",
+  "matterId": "matter_demo_contract",
+  "executionId": "exec_demo_001",
+  "continuationAvailable": true,
+  "responseConditional": true,
+  "responseRelianceStatus": "qualified",
+  "responseLimitations": ["DPA version not yet verified"],
+  "responseCitations": [
+    {
+      "claimIds": ["claim_liability_scope"],
+      "sourceId": "source_contract_v3",
+      "passageId": "passage_8_2",
+      "locator": "§8.2",
+      "verificationStatus": "verified",
+      "returnType": "document_preview",
+      "returnAvailability": "available"
+    }
+  ],
+  "artifacts": [
+    {
+      "artifactId": "artifact_memo_v3",
+      "familyId": "family_legal_memo",
+      "revision": 3,
+      "name": "Buyer-side Contract Review Memo",
+      "kind": "legal_memo",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "relianceStatus": "qualified",
+      "limitations": ["One governing-law source remains pending verification"]
+    }
+  ],
+  "relatedAssets": {
+    "status": "completed",
+    "items": [
+      {
+        "candidateId": "asset_candidate_01",
+        "assetType": "official_attachment",
+        "title": "Registry filing image",
+        "sourceId": "source_registry_01",
+        "evidenceStatus": "not_evidence"
+      }
+    ]
+  }
+}
